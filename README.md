@@ -28,6 +28,9 @@ The agent will walk you through it. Takes about 1 minute.
 - **Duplicate detection** flags when you have the same page open twice, with one-click cleanup
 - **Click any tab to jump to it** across windows, no new tab opened
 - **Save for later** bookmark tabs to a checklist before closing them
+- **Bookmarks Bar mirror** keeps your usual shortcuts available on every new tab
+- **Dark mode** follows your system preference by default, with a saved manual toggle
+- **Local favicons** use Chrome's built-in favicon cache instead of a third-party favicon service
 - **Localhost grouping** shows port numbers next to each tab so you can tell your vibe coding projects apart
 - **Expandable groups** show the first 8 tabs with a clickable "+N more"
 - **100% local** your data never leaves your machine
@@ -77,6 +80,8 @@ Everything runs inside the Chrome extension. No external server, no API calls, n
 |------|-----|
 | Extension | Chrome Manifest V3 |
 | Storage | chrome.storage.local |
+| Bookmarks | chrome.bookmarks |
+| Favicons | Chrome extension favicon endpoint |
 | Sound | Web Audio API (synthesized, no files) |
 | Animations | CSS transitions + JS confetti particles |
 
